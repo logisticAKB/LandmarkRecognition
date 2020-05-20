@@ -29,8 +29,8 @@ class LandmarkRecognitionModel:
 
     def __init__(self):
         self._mPredictionStatus = self.NOT_PREDICTED
-        self._mLandmarkNonLandmarkClassifier = load_model('../NN/models/landmark_non_landmark_model.h5')
-        self._mLandmarkClassifier = load_model('../NN/models/landmark_classification_model.h5')
+        self._mLandmarkNonLandmarkClassifier = load_model('./NN/models/landmark_non_landmark_model.h5')
+        self._mLandmarkClassifier = load_model('./NN/models/landmark_classification_model.h5')
         self._mImagePath = ''
         self._mPrediction = None
 
