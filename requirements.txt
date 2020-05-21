@@ -1,2 +1,4 @@
+pandas
+Pillow
 pyqt5~=5.14.2
 tensorflow~=2.2.0

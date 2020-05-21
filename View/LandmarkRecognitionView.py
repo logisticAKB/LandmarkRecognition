@@ -1,6 +1,6 @@
 import os
 from PyQt5 import QtWidgets
-from PyQt5.QtGui import QPixmap, QBitmap, QColor, QPainter
+from PyQt5.QtGui import QPixmap, QPainter
 from PyQt5.QtCore import Qt, QThread, pyqtSignal, QPoint
 
 from Utility.LandmarkRecognitionObserver import LandmarkRecognitionObserver
@@ -54,8 +54,8 @@ class LandmarkRecognitionView(QtWidgets.QMainWindow, LandmarkRecognitionObserver
         Метод вызывается при изменении модели.
         Запрашивает и отображает значение метки.
         """
-        prediction = self.mModel.prediction             # TODO: написать геттеры в контроллере
-        predictionStatus = self.mModel.predictionStatus
+        prediction = self.mController.getPrediction()
+        predictionStatus = self.mController.getPredictionStatus()
 
         if predictionStatus == self.mModel.NOT_PREDICTED:
             text = ''

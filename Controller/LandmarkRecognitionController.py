@@ -23,5 +23,11 @@ class LandmarkRecognitionController:
     def getImagePath(self):
         return self.mModel.imagePath
 
+    def getPrediction(self):
+        return self.mModel.prediction
+
+    def getPredictionStatus(self):
+        return self.mModel.predictionStatus
+
     def predictLandmark(self):
         self.mModel.predict()
