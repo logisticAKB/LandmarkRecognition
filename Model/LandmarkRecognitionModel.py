@@ -40,7 +40,7 @@ class LandmarkRecognitionModel:
             for line in white_list.readlines():
                 self._mLandmarkWhiteList.add(line.strip())
 
-        self._mIdLabelDf = pd.read_csv('./NN/meta/id_to_label.csv')
+        self._mIdLabelDf = pd.read_csv('./NN/meta/id_to_label.csv', sep=';')
 
         self._mImagePath = ''
         self._mPrediction = ''

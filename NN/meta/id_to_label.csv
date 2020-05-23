@@ -1,51 +1,44 @@
-id,label
-0,Lake_Como
-1,"Corktown,_Toronto"
-2,Pe%C5%A1ter
-3,Media_contributed_by_the_ETH-Bibliothek
-4,Harichavank
-5,Skopje_Fortress
-6,"St._Lawrence,_Toronto"
-7,Ljubljana_Castle
-8,Jurassic_Coast
-9,Khotyn_Fortress
-10,Lviv
-11,%C3%87ufut_Qale
-12,Edinburgh_Castle
-13,Sal%C3%A8ve
-14,Feroz_Shah_Kotla
-15,Nieuwe_Waterweg
-16,Niagara_Falls
-17,York_River_State_Park
-18,Masada
-19,Akkerman_fortress
-20,Pakistan_Monument_Islamabad
-21,St._Hripsime_church_in_Vagharshapat
-22,Faisal_Mosque
-23,Nyhavn
-24,Saint_Holy_Mother_church_of_Yeghvard
-25,Grote_of_Onze-Lieve-Vrouwekerk_(Breda)
-26,"Victoria_Memorial,_Kolkata"
-27,Perperikon
-28,Ogrodzieniec_Castle
-29,"Catedral_San_Sebasti%C3%A1n,_Cochabamba"
-30,Genoese_fortress_(Sudak)
-31,Grand_Canyon
-32,Haghpat
-33,Sofiyivsky_Park
-34,Isa_Khan_Niyazi's_tomb
-35,Hayravank_monastery
-36,Madrid_R%C3%ADo
-37,"Qutb_Minar_and_its_monuments,_Delhi"
-38,Mathura_Museum
-39,Golden_Gate_Bridge
-40,Kecharis
-41,Akbar's_Tomb
-42,Noraduz_Cemetery
-43,Eiffel_Tower
-44,Itmad-Ud-Daulah's_Tomb
-45,Matka_Canyon
-46,Douthat_State_Park
-47,Episcopal_Diocese_of_Southwest_Florida
-48,Purana_Qila
-49,Museum_of_Folk_Architecture_and_Ethnography_in_Pyrohiv
+id;landmark_id;label
+0;27;Мавзолей Хумаюна, Дели, Индия
+1;1924;Ниагарский водопад
+2;9070;крепость Фероз Шах Котла
+3;10419;Кутб-Минар, Дели
+4;14915;район Сент-Лоуренс, Торонто
+5;20120;Кафедральный собор Сан-Себастьян, Кочабамба
+6;20409;Кладбище хачкаров в Норатусе
+7;25093;Каньон Матка
+8;27190;город Перперикон, Болгария
+9;31531;Юрское побережье
+10;36748;Кечарис, Армения
+11;38482;Крепость Скопье, Северная Македония
+12;40088;Национальный парк Масада, Израиль
+13;41648;Белгород-Днестровская крепость, Украина
+14;45428;Национальный дендрологический парк Софиевка, Украина
+15;46705;Национальный парк Гранд Каньон, Аризона, США
+16;47378;Эйфелева башня
+17;51856;Церковь Гроте Керк, Бреда, Нидерланды
+18;64792;Мемориал Виктории, Калькутта, Индия
+19;76303;Церковь Святой Богородицы, Егвард, Армения
+20;83144;Музей народной архитектуры и быта Украины
+21;85633;Крепость Чуфут-Кале
+22;101399;Люблянский замок, Любляна, Словения
+23;107164;Церковь Святой Рипсимэ, Вагаршапат, Армения
+24;109169;Замок Огродзенец, Польша
+25;113209;гора Салев, Франция
+26;113838;порт Нюхавн, Копенгаген, Дания
+27;120734;музей Матхура, Индия
+28;139894;плато Пештер, Сербия
+29;143710;монастырь Аричаванк, Арич, Армения
+30;149980;Хотинская крепость, Украина
+31;152708;Гробница Акбара Великого, Агра, Индия
+32;161902;парк Мадрид Рио, Мадрид, Испания
+33;162833;Пакистанский монумент, Исламабад
+34;165596;Эдинбургский замок, Шотландия
+35;168098;мост Золотые Ворота, Калифорния, США
+36;173511;крепость Пурана-Кила, Дели, Индия
+37;176018;монастырь Айраванк, Айраванк, Армения
+38;187779;Генуэзская Крепость, Судак
+39;189811;озеро Комо, Италия
+40;189907;мавзолей Итимад-Уд-Даула, Агра, Индия
+41;190822;мечеть Фейсала, Исламабад, Пакистан
+42;191292;монастырь Ахпат, Армения
