@@ -81,11 +81,11 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Установить метку"))
-        self.image.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:15pt; color:#b0b0b0;\">Для начала работы откройте изображение</span></p><p><br/></p></body></html>"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Landmark Recognition"))
+        self.image.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:15pt; color:#b0b0b0;\">In order to start open image</span></p><p><br/></p></body></html>"))
         self.answer.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:10pt;\"></span><a href=\"http://stackoverflow.com/\"><span style=\" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:10pt; text-decoration: underline; color:#0000ff;\"></span></a></p></body></html>"))
-        self.openImage.setText(_translate("MainWindow", "Открыть изображение"))
-        self.findLabel.setText(_translate("MainWindow", "Установить метку"))
+        self.openImage.setText(_translate("MainWindow", "Open image"))
+        self.findLabel.setText(_translate("MainWindow", "Recognize"))
         self.about.setText(_translate("MainWindow", "О программе"))
         self.open.setText(_translate("MainWindow", "Открыть изображение"))
         self.exit.setText(_translate("MainWindow", "Выход"))

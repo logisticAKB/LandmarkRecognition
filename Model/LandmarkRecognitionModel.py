@@ -3,8 +3,8 @@ import pandas as pd
 import tensorflow as tf
 
 # Для видеокарт серии RTX
-physical_devices = tf.config.experimental.list_physical_devices('GPU')
-tf.config.experimental.set_memory_growth(physical_devices[0], True)
+#physical_devices = tf.config.experimental.list_physical_devices('GPU')
+#tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -40,7 +40,7 @@ class LandmarkRecognitionModel:
             for line in white_list.readlines():
                 self._mLandmarkWhiteList.add(line.strip())
 
-        self._mIdLabelDf = pd.read_csv('./NN/meta/id_to_label.csv', sep=';')
+        self._mIdLabelDf = pd.read_csv('./NN/meta/id_to_label_eng.csv', sep=';')
 
         self._mImagePath = ''
         self._mPrediction = ''

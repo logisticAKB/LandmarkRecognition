@@ -62,10 +62,10 @@ class LandmarkRecognitionView(QtWidgets.QMainWindow, LandmarkRecognitionObserver
         elif predictionStatus == self.mModel.PREDICTED_NOT_LANDMARK:
             text = f'<html><head/><body><p>' \
                    f'<span style=" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; ' \
-                   f'font-size:10pt;">Похоже, что на изображении нет меток</span></p></body></html>'
+                   f'font-size:10pt;">Looks like image doesn\'t contain any landmarks</span></p></body></html>'
         else:
             text = f'<html><head/><body><p>' \
-                   f'<span style=" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:10pt;">Это </span>' \
+                   f'<span style=" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:10pt;">This is </span>' \
                    f'<a href="https://www.google.com/search?q={prediction}">' \
                    f'<span style=" font-family:\'Museo Sans Cyrl\',\'Arial\',\'sans-serif\'; font-size:10pt; ' \
                    f'text-decoration: underline; color:#0000ff;">{prediction}</span></a></p></body></html>'
@@ -74,7 +74,7 @@ class LandmarkRecognitionView(QtWidgets.QMainWindow, LandmarkRecognitionObserver
 
     def showFileDialog(self):
         curDir = os.path.abspath(os.getcwd())
-        imagePath, _ = QtWidgets.QFileDialog.getOpenFileName(self, 'Открыть изображение', curDir, 'Изображения (*.jpg)')
+        imagePath, _ = QtWidgets.QFileDialog.getOpenFileName(self, 'Open image', curDir, 'Images (*.jpg)')
 
         if imagePath != '':
             self.showImage(imagePath)
