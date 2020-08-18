@@ -23,3 +23,6 @@ python main.pyw
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+## Acknowledgments
+- To [z3ntu](https://github.com/z3ntu) for the wonderful [QtWaitingSpinner](https://github.com/z3ntu/QtWaitingSpinner) widget!
