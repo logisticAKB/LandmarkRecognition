@@ -19,7 +19,7 @@ python main.pyw
 ```
 
 ## Sample
-
+<img alt="GIF" height="400px" src="https://github.com/logisticAKB/LandmarkRecognition/blob/master/examples/usage_sample.gif" />
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
