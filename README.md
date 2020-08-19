@@ -1,7 +1,7 @@
 # LandmarkRecognition
 
 - LandmarkRecognition is a Python program that recognizes up to 43 landmarks from kaggle's Google Landmark Recognition 2019 [dataset](https://www.kaggle.com/c/landmark-recognition-2019/data). 
-- It's also able to recognize a picture with no landmark on it.
+- It's also able to recognize an image with no landmark on it.
 
 ## Installation
 
